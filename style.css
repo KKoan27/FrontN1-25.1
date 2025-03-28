@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+
+html,:root{
+    height: 100%;
+    width: 100%;
+}
+
+
+/* O primeiro nome diz de qual parte ele é */
+
+/* Header */
+header{
+    background-color: rgb(7, 38, 60);
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav{
+    align-self: center;
+
+    
+}
+header nav ul {
+    display: flex;
+    list-style-type: none;
+    gap: 80px;
+    align-items: start;
+    padding-right: 100px;    
+}
+
+header nav  a{
+    text-decoration: none;
+    border-radius: 15px;
+    outline: 3px solid transparent;
+    background-color: rgb(5, 9, 246);
+    padding: 15px;
+    color: white;
+    font-size: large;
+    transition: outline 0.4s;
+    font-family: Outfit;
+} 
+header nav a:hover{
+    outline: 3px rgb(255, 255, 255) solid;
+
+}
+
+header img{
+    padding-top: 10px;
+}
+
+
+
+/* Continuar aqui */
+
+
+
