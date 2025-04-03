@@ -1,18 +1,20 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="Login.css">
     <title>Pexe-Login</title>
 </head>
+
 <body>
 
-    <header>    
+    <header>
         <figure>
             <img height="120" src="Logo.png" alt="">
         </figure>
-       <nav>
+        <nav>
             <ul>
 
                 <li><a href="index.html">Home</a></li>
@@ -21,11 +23,34 @@
 
             </ul>
 
-       </nav> 
+        </nav>
     </header>
 
     <main>
-       <section> <h1>FAÇA O SEU LOGIN !!</h1></section>
+        <section>
+            <!--  Form para capturar as informações e o "p" fora para trazer uma resposta -->
+            <h1>FAÇA O SEU LOGIN !!</h1>
+            <article>
+                <form id="formulario" onsubmit="Cadastrar(event)">
+
+                    <label for="Nome"> Nome de usuario</label>
+                    <br>
+                    <input type="text" id="Nome" name="nome">
+                    <br>
+                    <label for="Email"> Email</label>
+                    <br>
+                    <input type="email" id="Email" name="email">
+                    <br>
+                    <label for="Senha"> Senha</label>
+                    <br>
+                    <input type="password" id="Senha" name="senha">
+
+                    <input type="submit">
+                </form>
+                <p id="resposta"></p>
+            </article>
+
+        </section>
     </main>
 
 
@@ -42,6 +67,7 @@
         </ul>
     </footer>
 
-<script src="script.js"></script>    
+    <script src="script.js"></script>
 </body>
+
 </html>

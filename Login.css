@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+
+html,:root, body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* Header */
+
+
+header{
+    background-color: rgb(7, 38, 60);
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+}
+
+header nav{
+    align-self: center;
+
+    
+}
+header nav ul {
+    display: flex;
+    list-style-type: none;
+    gap: 80px;
+    align-items: start;
+    padding-right: 100px;    
+}
+
+header nav  a{
+    text-decoration: none;
+    border-radius: 15px;
+    outline: 3px solid transparent;
+    background-color: rgb(5, 9, 246);
+    padding: 15px;
+    color: white;
+    font-size: large;
+    transition: outline 0.4s;
+    font-family: Outfit;
+} 
+header nav a:hover{
+    outline: 3px rgb(255, 255, 255) solid;
+
+}
+
+header img{
+    padding-top: 10px;
+}
+
+/* MAIN */
+
+main{
+    flex: 5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+main .secao1{
+    background-color: brown;
+    /* Cor apenas para visualização */
+    flex: 1;
+}
+
+main .secao2{
+    background-color: rgb(255, 0, 191);
+    flex: 4;
+}
+
+/* FOOTER */
+footer{
+    background-color: aqua;
+    flex:1;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer ul{
+    padding-top: 5px;
+    list-style: none;
+    cursor: default ;
+    
+}
+footer li{
+    padding-top: 10px;
+}
+
+
