@@ -113,21 +113,27 @@ header img{
 /* MAIN */
 
 main{
-    flex: 5;
-    display: flex;
+    
+    display: inline-block;
 
 }
 
 
-main .secao1{
+
+.sidebar{
     background-color: brown;
-    /* Cor apenas para visualização */
-    flex: 1;
+    display:inline-block;
+    width: 20rem;
+    
 }
 
-main .secao2{
-    background-color: rgb(255, 0, 191);
-    flex: 4;
+.secao{
+    background-color: rgb(82, 82, 82);
+    display: inline-block;
+}
+.reviews{
+    background-color: gray;
+    display: inline-block;
 }
 
 /* FOOTER */
