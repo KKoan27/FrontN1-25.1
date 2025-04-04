@@ -78,6 +78,7 @@ header{
     background-color: rgb(7, 38, 60);
     display: flex;
     justify-content: space-between;
+    align-items: center;
     height: 15%;
 }
 
