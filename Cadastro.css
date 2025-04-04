@@ -67,7 +67,9 @@ main{
     justify-content: center;
     align-items: center;
     font-family: Outfit;
-    background-image: url();
+    background: url(imagens/AGUA.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
 
 }
 
@@ -86,7 +88,7 @@ main .secao2{
 main .form{
     font-size: larger;
     border-radius: 10px;
-    padding: 30px;
+    padding: 5px ;
     background-color: aqua;
     border: rgb(0, 13, 255) solid 2px;
     
