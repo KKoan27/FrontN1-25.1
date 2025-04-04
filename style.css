@@ -5,6 +5,7 @@ html, body{
     width: 100%;
     margin: 0;
     padding: 0;
+    font-family: Outfit;
 }
 
 body{
@@ -102,7 +103,6 @@ header nav  a{
     color: white;
     font-size: large;
     transition: outline 0.4s;
-    font-family: Outfit;
 } 
 header nav a:hover{
     outline: 3px rgb(255, 255, 255) solid;
@@ -170,10 +170,13 @@ main{
 
 /* FOOTER */
 footer{
-    background-color: aqua;
-    height: 15%;
+
+    background-color: rgb(7, 38, 60);
+    flex:1;
     display: flex;
     justify-content: space-around;
+    color: white;
+
 }
 
 footer ul{
@@ -185,5 +188,13 @@ footer ul{
 footer li{
     padding-top: 0.8rem;
 }
-
+footer a {
+    text-decoration: none;
+    color: rgb(0, 221, 255);
+    border-radius: 5px;
+    padding: 5px;
+}
+footer a:hover{
+    background-color: blue;
+}
 

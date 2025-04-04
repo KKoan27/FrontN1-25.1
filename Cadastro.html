@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Cadastro.css">
+    <title>Pexe-Login</title>
+</head>
+
+<body>
+
+    <header>
+        <figure>
+            <img height="120" src="Logo.png" alt="">
+        </figure>
+        <nav>
+            <ul>
+
+                <li><a href="index.html">Home</a></li>
+                <li><a href="">Login</a></li>
+                <li><a href="">Content</a></li>
+
+            </ul>
+
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <!--  Form para capturar as informações e o "p" fora para trazer uma resposta -->
+            <h1>Cadastre-se no PEXE</h1>
+            <article class="form">
+                <form id="formulario" onsubmit="Cadastrar(event)">
+
+                    <div class="inserts">
+                    <label for="Nome"> Nome de usuario</label>
+                    <br>
+                    <input type="text" id="Nome" name="nome">
+                    <br>
+
+                    <label for="Email"> Email</label>
+                    <br>
+                    <input type="email" id="Email" name="email">
+                    <br>
+
+                    <label for="CPF">CPF</label>
+                    <br>
+                    <input type="text" id= "CPF" name="CPF">
+
+                    <br>
+                    <label for="Senha"> Senha</label>
+                    <br>
+                    <input type="password" id="Senha" name="senha">
+                    <br>
+                
+                    <label for="Telefone">Telefone</label>
+                    <br>
+                    <input type="tel" id="Telefone" name="Telefone">
+                    
+                    <br>
+                </div>
+                <div class="button">
+                    <input type="submit" id="BtnEnviar">
+                    <button type="reset"> Limpar</button>
+                   <a href="index.html">Cancelar</a>
+                </div>
+                    
+                </form>
+                
+            </article>
+            <p id="resposta"></p>
+
+
+        </section>
+    </main>
+
+
+    <footer>
+        <ul>
+            <li>Trabalhe conosco</li>
+            <li>Termos e Privacidade</li>
+            <li>Trabalho tarefa para OVIDIO</li>
+        </ul>
+        <ul>
+            <li><a href="https://www.x.com" target="_blank"> Twitter pexe</a> <a href="https://facebook" target="_blank"> Face pexe</a></li>
+            <li>Telefone: 15 99723234</li>
+            <li>Endereço: <a href="https://maps.app.goo.gl/8i1wL8tBrjpLNRuP7" target="_blank">Pindamonhangaba</a></li>
+        </ul>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
