@@ -116,7 +116,7 @@ header img{
 
 /* MAIN */
 
-main{
+.contentMain{
     
     display: flex;
     flex-direction: column;
