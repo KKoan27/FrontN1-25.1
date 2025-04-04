@@ -6,6 +6,8 @@ html,:root, body{
     width: 100%;
     margin: 0;
     padding: 0;
+    font-family: Outfit;
+
 }
 
 body{
@@ -64,6 +66,9 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: Outfit;
+    background-image: url();
+
 }
 
 
@@ -78,12 +83,72 @@ main .secao2{
     flex: 4;
 }
 
+main .form{
+    font-size: larger;
+    border-radius: 10px;
+    padding: 30px;
+    background-color: aqua;
+    border: rgb(0, 13, 255) solid 2px;
+    
+}
+
+/* Este inserts e apenas para centralizar no card e ficar melhor */
+main .inserts{
+    justify-self: center;
+}
+
+
+.button{
+    margin-top: 1em;
+}
+
+.button a, .button input, .button button{
+    text-decoration: none;
+    border-radius: 20px;
+    border: solid blue 3px;
+    font-size: large;
+    padding: 10px;
+    background-color: rgba(14, 255, 155, 0.792) ;
+    color: rgb(0, 0, 0);
+    transition: background-color 0.7s;
+    
+}
+
+.button a:hover{
+    background-color: rgb(255, 9, 9);
+    cursor: pointer;
+
+
+} 
+.button input:hover{
+background-color: rgb(6, 172, 39);
+cursor: pointer;
+
+} 
+
+.button button:hover{
+    background-color: yellow;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
 /* FOOTER */
 footer{
-    background-color: aqua;
+    background-color: rgb(7, 38, 60);
     flex:1;
     display: flex;
     justify-content: space-around;
+    color: white;
+
 }
 
 footer ul{
@@ -95,5 +160,20 @@ footer ul{
 footer li{
     padding-top: 10px;
 }
+footer a {
+    text-decoration: none;
+    color: rgb(0, 221, 255);
+    border-radius: 5px;
+    padding: 5px;
+}
+footer a:hover{
+    background-color: blue;
+    
+    
+}
+
+
+
+
 
 

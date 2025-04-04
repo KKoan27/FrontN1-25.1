@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Login.css">
+    <link rel="stylesheet" href="Cadastro.css">
     <title>Pexe-Login</title>
 </head>
 
@@ -29,26 +29,48 @@
     <main>
         <section>
             <!--  Form para capturar as informações e o "p" fora para trazer uma resposta -->
-            <h1>FAÇA O SEU LOGIN !!</h1>
-            <article>
+            <h1>Cadastre-se no PEXE</h1>
+            <article class="form">
                 <form id="formulario" onsubmit="Cadastrar(event)">
 
+                    <div class="inserts">
                     <label for="Nome"> Nome de usuario</label>
                     <br>
                     <input type="text" id="Nome" name="nome">
                     <br>
+
                     <label for="Email"> Email</label>
                     <br>
                     <input type="email" id="Email" name="email">
                     <br>
+
+                    <label for="CPF">CPF</label>
+                    <br>
+                    <input type="text" id= "CPF" name="CPF">
+
+                    <br>
                     <label for="Senha"> Senha</label>
                     <br>
                     <input type="password" id="Senha" name="senha">
-
-                    <input type="submit">
+                    <br>
+                
+                    <label for="Telefone">Telefone</label>
+                    <br>
+                    <input type="tel" id="Telefone" name="Telefone">
+                    
+                    <br>
+                </div>
+                <div class="button">
+                    <input type="submit" id="BtnEnviar">
+                    <button type="reset"> Limpar</button>
+                   <a href="index.html">Cancelar</a>
+                </div>
+                    
                 </form>
-                <p id="resposta"></p>
+                
             </article>
+            <p id="resposta"></p>
+
 
         </section>
     </main>
@@ -61,9 +83,9 @@
             <li>Trabalho tarefa para OVIDIO</li>
         </ul>
         <ul>
-            <li>PEXE CORPORATIONS</li>
-            <li>Duvida e Suporte</li>
-            <li>Acessibilidade</li>
+            <li><a href="https://www.x.com" target="_blank"> Twitter pexe</a> <a href="https://facebook" target="_blank"> Face pexe</a></li>
+            <li>Telefone: 15 99723234</li>
+            <li>Endereço: <a href="https://maps.app.goo.gl/8i1wL8tBrjpLNRuP7" target="_blank">Pindamonhangaba</a></li>
         </ul>
     </footer>
 
